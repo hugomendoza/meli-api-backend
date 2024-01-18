@@ -15,8 +15,8 @@ app.use( express.static("public") );
 
 //Rutas
 //EndPoint Search
-app.use("/api/items", require("./routes/apiSearch"));
-app.use("/api/items/:id", require("./routes/apiProduct"));
+app.use("/api/items", require("./routes/search"));
+app.use("/api/items/:id", require("./routes/product"));
 
 //Escuchar peticiones
 app.listen( process.env.PORT, () => {

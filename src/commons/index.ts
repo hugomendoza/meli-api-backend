@@ -1,5 +1,3 @@
-const apiUrl = "https://api.mercadolibre.com/";
-
 const author = {
   "name": "Hugo",
   "lastname": "Mendoza"
@@ -10,4 +8,4 @@ const errors = {
   "no_encontrado": "Producto no encontrado"
 }
 
-module.exports = {apiUrl, author, errors};
+module.exports = {author, errors};
